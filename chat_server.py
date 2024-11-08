@@ -22,7 +22,7 @@ prompt_template = ChatPromptTemplate.from_messages(
 
 # モデルの作成
 model = ChatOllama(
-    model="llama3.1",
+    model="tinyllama",
     temperature=0,
 )
 
